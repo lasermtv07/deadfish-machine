@@ -396,153 +396,157 @@
     <wire from="(710,490)" to="(1300,490)"/>
     <wire from="(920,110)" to="(920,420)"/>
     <wire from="(400,280)" to="(400,530)"/>
-    <comp lib="0" loc="(750,860)" name="Constant">
-      <a name="facing" val="north"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(760,300)" name="Splitter">
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-    </comp>
-    <comp lib="1" loc="(850,160)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(770,860)" name="Constant">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="5" loc="(350,440)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="4" loc="(320,770)" name="ROM">
-      <a name="contents">addr/data: 8 8
-5*9 b c 30 89*0 1
-</a>
-    </comp>
-    <comp lib="1" loc="(850,140)" name="Controlled Buffer"/>
-    <comp lib="6" loc="(1224,764)" name="Text">
-      <a name="text" val="re"/>
-    </comp>
-    <comp lib="6" loc="(1224,745)" name="Text">
-      <a name="text" val="rl"/>
-    </comp>
-    <comp lib="5" loc="(350,500)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="6" loc="(1225,705)" name="Text">
-      <a name="text" val="im"/>
-    </comp>
-    <comp lib="6" loc="(800,894)" name="Text">
-      <a name="text" val="2^7"/>
-    </comp>
-    <comp lib="1" loc="(850,120)" name="Controlled Buffer"/>
-    <comp lib="1" loc="(670,800)" name="Controlled Buffer">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="5" loc="(350,530)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="4" loc="(130,700)" name="Counter"/>
-    <comp lib="0" loc="(290,200)" name="Splitter">
+    <comp lib="0" loc="(430,200)" name="Splitter">
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
       <a name="appear" val="right"/>
     </comp>
-    <comp lib="0" loc="(740,130)" name="Splitter">
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-    </comp>
-    <comp lib="1" loc="(850,70)" name="Controlled Buffer"/>
-    <comp lib="5" loc="(330,380)" name="LED"/>
-    <comp lib="6" loc="(617,888)" name="Text">
-      <a name="text" val="2^0"/>
-    </comp>
-    <comp lib="1" loc="(750,800)" name="Controlled Buffer">
+    <comp lib="1" loc="(670,800)" name="Controlled Buffer">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="1" loc="(650,800)" name="Controlled Buffer">
+    <comp lib="6" loc="(800,894)" name="Text">
+      <a name="text" val="2^7"/>
+    </comp>
+    <comp lib="0" loc="(230,880)" name="Constant">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="1" loc="(710,800)" name="Controlled Buffer">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="5" loc="(340,310)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(70,910)" name="Clock"/>
-    <comp loc="(1090,220)" name="inkrementor/dekrementor"/>
-    <comp lib="4" loc="(730,50)" name="Register"/>
-    <comp lib="6" loc="(1225,682)" name="Text">
-      <a name="text" val="ie"/>
-    </comp>
-    <comp lib="1" loc="(690,800)" name="Controlled Buffer">
-      <a name="facing" val="north"/>
+    <comp lib="1" loc="(850,160)" name="Controlled Buffer"/>
+    <comp lib="1" loc="(850,140)" name="Controlled Buffer"/>
+    <comp lib="1" loc="(850,180)" name="Controlled Buffer"/>
+    <comp lib="6" loc="(1224,764)" name="Text">
+      <a name="text" val="re"/>
     </comp>
     <comp lib="6" loc="(1223,724)" name="Text">
       <a name="text" val="me"/>
     </comp>
-    <comp lib="1" loc="(850,100)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(20,40)" name="Clock"/>
-    <comp lib="0" loc="(960,770)" name="Splitter">
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
+    <comp lib="1" loc="(790,800)" name="Controlled Buffer">
+      <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(650,860)" name="Constant">
+    <comp lib="6" loc="(1224,745)" name="Text">
+      <a name="text" val="rl"/>
+    </comp>
+    <comp lib="0" loc="(690,860)" name="Constant">
+      <a name="facing" val="north"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(750,860)" name="Constant">
       <a name="facing" val="north"/>
       <a name="value" val="0x0"/>
     </comp>
     <comp lib="5" loc="(350,470)" name="LED">
       <a name="facing" val="east"/>
     </comp>
-    <comp lib="6" loc="(1223,784)" name="Text">
-      <a name="text" val="oe"/>
+    <comp lib="6" loc="(1225,682)" name="Text">
+      <a name="text" val="ie"/>
     </comp>
-    <comp lib="1" loc="(790,800)" name="Controlled Buffer">
+    <comp lib="0" loc="(770,860)" name="Constant">
       <a name="facing" val="north"/>
     </comp>
+    <comp lib="5" loc="(350,440)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="0" loc="(740,130)" name="Splitter">
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="1" loc="(850,20)" name="Controlled Buffer"/>
+    <comp lib="5" loc="(340,310)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(290,200)" name="Splitter">
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+      <a name="appear" val="right"/>
+    </comp>
+    <comp lib="4" loc="(730,50)" name="Register"/>
     <comp lib="0" loc="(710,860)" name="Constant">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(690,860)" name="Constant">
-      <a name="facing" val="north"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(770,800)" name="Controlled Buffer">
-      <a name="facing" val="north"/>
+    <comp lib="1" loc="(850,120)" name="Controlled Buffer"/>
+    <comp lib="5" loc="(350,410)" name="LED">
+      <a name="facing" val="east"/>
     </comp>
     <comp lib="0" loc="(730,860)" name="Constant">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="5" loc="(330,350)" name="LED"/>
-    <comp lib="0" loc="(670,860)" name="Constant">
+    <comp lib="1" loc="(730,800)" name="Controlled Buffer">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="1" loc="(850,180)" name="Controlled Buffer"/>
-    <comp lib="4" loc="(400,210)" name="Register"/>
-    <comp loc="(1090,350)" name="mocnina"/>
+    <comp lib="5" loc="(330,350)" name="LED"/>
+    <comp loc="(1090,220)" name="inkrementor/dekrementor"/>
     <comp lib="0" loc="(630,810)" name="Constant">
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="1" loc="(850,40)" name="Controlled Buffer"/>
-    <comp lib="5" loc="(350,410)" name="LED">
+    <comp lib="6" loc="(1225,705)" name="Text">
+      <a name="text" val="im"/>
+    </comp>
+    <comp lib="1" loc="(850,70)" name="Controlled Buffer"/>
+    <comp lib="4" loc="(320,770)" name="ROM">
+      <a name="contents">addr/data: 8 8
+9 9 9 c c 7*9 30 28*9
+30 6*9 30 30 9 9 30 66*b
+30 11*b 30 20*b c b 30 7*b
+30 9 9 30 5*b 30 7*b 30
+66*b 30
+</a>
+    </comp>
+    <comp lib="6" loc="(1223,784)" name="Text">
+      <a name="text" val="oe"/>
+    </comp>
+    <comp lib="1" loc="(850,100)" name="Controlled Buffer"/>
+    <comp lib="5" loc="(350,530)" name="LED">
       <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(850,40)" name="Controlled Buffer"/>
+    <comp lib="0" loc="(960,770)" name="Splitter">
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="1" loc="(710,800)" name="Controlled Buffer">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="5" loc="(350,500)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="0" loc="(670,860)" name="Constant">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(690,800)" name="Controlled Buffer">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="5" loc="(330,380)" name="LED"/>
+    <comp loc="(1090,350)" name="mocnina"/>
+    <comp lib="4" loc="(130,700)" name="Counter"/>
+    <comp lib="6" loc="(617,888)" name="Text">
+      <a name="text" val="2^0"/>
+    </comp>
+    <comp lib="0" loc="(650,860)" name="Constant">
+      <a name="facing" val="north"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="4" loc="(400,210)" name="Register"/>
+    <comp lib="0" loc="(760,300)" name="Splitter">
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
     </comp>
     <comp lib="0" loc="(690,50)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
     </comp>
+    <comp lib="0" loc="(70,910)" name="Clock"/>
+    <comp lib="1" loc="(750,800)" name="Controlled Buffer">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(20,40)" name="Clock"/>
+    <comp lib="1" loc="(650,800)" name="Controlled Buffer">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(770,800)" name="Controlled Buffer">
+      <a name="facing" val="north"/>
+    </comp>
     <comp lib="0" loc="(790,860)" name="Constant">
       <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(230,880)" name="Constant">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(730,800)" name="Controlled Buffer">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(850,20)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(430,200)" name="Splitter">
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-      <a name="appear" val="right"/>
     </comp>
   </circuit>
   <circuit name="scitac/odcitac">
@@ -573,31 +577,31 @@
     <wire from="(330,210)" to="(330,270)"/>
     <wire from="(220,110)" to="(220,200)"/>
     <wire from="(350,190)" to="(390,190)"/>
+    <comp lib="2" loc="(350,190)" name="Multiplexer">
+      <a name="disabled" val="0"/>
+      <a name="enable" val="false"/>
+    </comp>
     <comp lib="0" loc="(160,320)" name="Pin">
       <a name="label" val="m"/>
+    </comp>
+    <comp lib="1" loc="(380,130)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(160,110)" name="Pin">
+      <a name="label" val="a"/>
     </comp>
     <comp lib="1" loc="(440,210)" name="AND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(300,200)" name="NOT Gate"/>
-    <comp lib="0" loc="(160,110)" name="Pin">
-      <a name="label" val="a"/>
+    <comp lib="0" loc="(160,150)" name="Pin">
+      <a name="label" val="b"/>
     </comp>
     <comp lib="0" loc="(570,130)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="s"/>
     </comp>
-    <comp lib="2" loc="(350,190)" name="Multiplexer">
-      <a name="disabled" val="0"/>
-      <a name="enable" val="false"/>
-    </comp>
-    <comp lib="1" loc="(380,130)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(160,150)" name="Pin">
-      <a name="label" val="b"/>
-    </comp>
+    <comp lib="1" loc="(300,200)" name="NOT Gate"/>
     <comp lib="0" loc="(160,360)" name="Pin">
       <a name="output" val="true"/>
       <a name="label" val="cout"/>
@@ -687,109 +691,109 @@
     <wire from="(200,390)" to="(200,430)"/>
     <wire from="(180,90)" to="(180,140)"/>
     <wire from="(150,140)" to="(160,140)"/>
+    <wire from="(200,430)" to="(210,430)"/>
+    <wire from="(200,370)" to="(210,370)"/>
     <wire from="(200,390)" to="(210,390)"/>
     <wire from="(200,310)" to="(210,310)"/>
-    <wire from="(200,370)" to="(210,370)"/>
     <wire from="(200,330)" to="(210,330)"/>
     <wire from="(200,270)" to="(210,270)"/>
-    <wire from="(200,430)" to="(210,430)"/>
-    <wire from="(200,450)" to="(210,450)"/>
-    <wire from="(200,490)" to="(210,490)"/>
-    <wire from="(200,510)" to="(210,510)"/>
-    <wire from="(200,550)" to="(210,550)"/>
     <wire from="(200,250)" to="(210,250)"/>
     <wire from="(200,210)" to="(210,210)"/>
     <wire from="(200,150)" to="(210,150)"/>
     <wire from="(200,190)" to="(210,190)"/>
+    <wire from="(200,450)" to="(210,450)"/>
+    <wire from="(200,490)" to="(210,490)"/>
+    <wire from="(200,510)" to="(210,510)"/>
+    <wire from="(200,550)" to="(210,550)"/>
     <wire from="(290,370)" to="(360,370)"/>
-    <comp lib="1" loc="(290,420)" name="Controlled Buffer"/>
-    <comp lib="1" loc="(290,370)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(360,250)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="o 2^2"/>
+    <comp loc="(240,370)" name="scitac/odcitac"/>
+    <comp lib="0" loc="(100,420)" name="Pin">
+      <a name="label" val="2^5"/>
     </comp>
-    <comp lib="0" loc="(390,50)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="label" val="enable"/>
+    <comp lib="0" loc="(100,180)" name="Pin">
+      <a name="label" val="2^1"/>
     </comp>
-    <comp lib="1" loc="(310,190)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(100,360)" name="Pin">
-      <a name="label" val="2^4"/>
-    </comp>
-    <comp loc="(240,250)" name="scitac/odcitac"/>
-    <comp loc="(240,550)" name="scitac/odcitac"/>
-    <comp lib="1" loc="(290,480)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(100,240)" name="Pin">
-      <a name="label" val="2^2"/>
-    </comp>
+    <comp lib="1" loc="(290,540)" name="Controlled Buffer"/>
     <comp lib="0" loc="(360,370)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="o 2^4"/>
     </comp>
-    <comp lib="0" loc="(360,310)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="o 2^3"/>
+    <comp loc="(240,130)" name="scitac/odcitac"/>
+    <comp lib="0" loc="(100,480)" name="Pin">
+      <a name="label" val="2^6"/>
     </comp>
-    <comp lib="0" loc="(100,180)" name="Pin">
-      <a name="label" val="2^1"/>
+    <comp lib="0" loc="(390,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="label" val="enable"/>
     </comp>
-    <comp lib="0" loc="(360,130)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="o 2^0"/>
+    <comp lib="1" loc="(310,310)" name="Controlled Buffer"/>
+    <comp lib="0" loc="(100,300)" name="Pin">
+      <a name="label" val="2^3"/>
     </comp>
-    <comp loc="(240,370)" name="scitac/odcitac"/>
-    <comp lib="1" loc="(310,250)" name="Controlled Buffer"/>
     <comp lib="0" loc="(360,490)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="o 2^6"/>
     </comp>
-    <comp lib="1" loc="(290,540)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(100,540)" name="Pin">
-      <a name="label" val="2^7"/>
-    </comp>
-    <comp loc="(240,190)" name="scitac/odcitac"/>
     <comp loc="(240,490)" name="scitac/odcitac"/>
-    <comp lib="0" loc="(360,550)" name="Pin">
+    <comp lib="0" loc="(360,310)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="label" val="o 2^7"/>
-    </comp>
-    <comp lib="0" loc="(100,120)" name="Pin">
-      <a name="label" val="2^0"/>
-    </comp>
-    <comp lib="0" loc="(100,480)" name="Pin">
-      <a name="label" val="2^6"/>
+      <a name="label" val="o 2^3"/>
     </comp>
     <comp lib="0" loc="(360,430)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="o 2^5"/>
     </comp>
+    <comp lib="0" loc="(100,120)" name="Pin">
+      <a name="label" val="2^0"/>
+    </comp>
+    <comp loc="(240,250)" name="scitac/odcitac"/>
+    <comp lib="1" loc="(310,190)" name="Controlled Buffer"/>
+    <comp lib="0" loc="(100,360)" name="Pin">
+      <a name="label" val="2^4"/>
+    </comp>
     <comp lib="0" loc="(360,190)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="o 2^1"/>
     </comp>
-    <comp lib="0" loc="(150,140)" name="Constant"/>
-    <comp lib="0" loc="(100,420)" name="Pin">
-      <a name="label" val="2^5"/>
+    <comp lib="1" loc="(290,370)" name="Controlled Buffer"/>
+    <comp lib="0" loc="(360,550)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="o 2^7"/>
     </comp>
-    <comp lib="1" loc="(310,130)" name="Controlled Buffer"/>
-    <comp loc="(240,430)" name="scitac/odcitac"/>
+    <comp lib="0" loc="(100,540)" name="Pin">
+      <a name="label" val="2^7"/>
+    </comp>
+    <comp lib="0" loc="(100,240)" name="Pin">
+      <a name="label" val="2^2"/>
+    </comp>
     <comp loc="(240,310)" name="scitac/odcitac"/>
-    <comp lib="1" loc="(310,310)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(100,300)" name="Pin">
-      <a name="label" val="2^3"/>
+    <comp lib="0" loc="(360,130)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="o 2^0"/>
     </comp>
-    <comp loc="(240,130)" name="scitac/odcitac"/>
+    <comp loc="(240,430)" name="scitac/odcitac"/>
+    <comp lib="1" loc="(310,250)" name="Controlled Buffer"/>
+    <comp lib="1" loc="(310,130)" name="Controlled Buffer"/>
+    <comp lib="0" loc="(150,140)" name="Constant"/>
     <comp lib="0" loc="(180,90)" name="Pin">
       <a name="facing" val="south"/>
       <a name="label" val="mode"/>
+    </comp>
+    <comp lib="1" loc="(290,420)" name="Controlled Buffer"/>
+    <comp lib="1" loc="(290,480)" name="Controlled Buffer"/>
+    <comp loc="(240,190)" name="scitac/odcitac"/>
+    <comp loc="(240,550)" name="scitac/odcitac"/>
+    <comp lib="0" loc="(360,250)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="o 2^2"/>
     </comp>
   </circuit>
   <circuit name="mocnina">
@@ -880,12 +884,43 @@
     <wire from="(800,310)" to="(800,360)"/>
     <wire from="(600,410)" to="(610,410)"/>
     <wire from="(630,100)" to="(640,100)"/>
+    <comp lib="1" loc="(730,170)" name="Controlled Buffer"/>
     <comp lib="0" loc="(680,60)" name="Pin">
       <a name="facing" val="south"/>
       <a name="label" val="enable"/>
     </comp>
+    <comp lib="0" loc="(210,290)" name="Pin">
+      <a name="label" val="2^3"/>
+    </comp>
+    <comp lib="0" loc="(460,310)" name="Ground">
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(740,170)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="o 2^2"/>
+    </comp>
+    <comp lib="1" loc="(630,100)" name="Controlled Buffer"/>
+    <comp lib="1" loc="(740,210)" name="Controlled Buffer"/>
+    <comp lib="0" loc="(210,240)" name="Pin">
+      <a name="label" val="2^0"/>
+    </comp>
+    <comp lib="1" loc="(770,250)" name="Controlled Buffer"/>
     <comp lib="0" loc="(250,300)" name="Pin">
       <a name="label" val="2^4"/>
+    </comp>
+    <comp lib="1" loc="(740,350)" name="Controlled Buffer"/>
+    <comp lib="0" loc="(200,340)" name="Pin">
+      <a name="label" val="2^6"/>
+    </comp>
+    <comp lib="0" loc="(550,260)" name="Splitter">
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(740,210)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="o 2^3"/>
     </comp>
     <comp lib="1" loc="(680,140)" name="Controlled Buffer"/>
     <comp lib="0" loc="(640,100)" name="Pin">
@@ -893,81 +928,50 @@
       <a name="output" val="true"/>
       <a name="label" val="o 2^0"/>
     </comp>
-    <comp lib="1" loc="(740,350)" name="Controlled Buffer"/>
-    <comp lib="1" loc="(710,380)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(280,250)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-    </comp>
-    <comp lib="0" loc="(710,380)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="o 2^6"/>
-    </comp>
-    <comp lib="0" loc="(170,310)" name="Pin">
-      <a name="label" val="2^5"/>
-    </comp>
-    <comp lib="1" loc="(630,410)" name="Controlled Buffer"/>
-    <comp lib="3" loc="(480,260)" name="Multiplier"/>
-    <comp lib="0" loc="(740,210)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="o 2^3"/>
-    </comp>
-    <comp lib="0" loc="(200,340)" name="Pin">
-      <a name="label" val="2^6"/>
-    </comp>
-    <comp lib="0" loc="(210,240)" name="Pin">
-      <a name="label" val="2^0"/>
-    </comp>
-    <comp lib="0" loc="(460,310)" name="Ground">
-      <a name="width" val="8"/>
-    </comp>
-    <comp lib="1" loc="(770,250)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(680,140)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="o 2^1"/>
-    </comp>
-    <comp lib="1" loc="(740,210)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(150,280)" name="Pin">
-      <a name="label" val="2^2"/>
-    </comp>
     <comp lib="0" loc="(770,250)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="o 2^4"/>
     </comp>
+    <comp lib="0" loc="(170,310)" name="Pin">
+      <a name="label" val="2^5"/>
+    </comp>
+    <comp lib="1" loc="(710,380)" name="Controlled Buffer"/>
     <comp lib="0" loc="(190,260)" name="Pin">
       <a name="label" val="2^1"/>
-    </comp>
-    <comp lib="1" loc="(730,170)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(160,370)" name="Pin">
-      <a name="label" val="2^7"/>
-    </comp>
-    <comp lib="1" loc="(630,100)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(550,260)" name="Splitter">
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-    </comp>
-    <comp lib="0" loc="(740,170)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="o 2^2"/>
-    </comp>
-    <comp lib="0" loc="(210,290)" name="Pin">
-      <a name="label" val="2^3"/>
     </comp>
     <comp lib="0" loc="(650,410)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="o 2^7"/>
     </comp>
+    <comp lib="0" loc="(280,250)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="3" loc="(480,260)" name="Multiplier"/>
+    <comp lib="0" loc="(680,140)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="o 2^1"/>
+    </comp>
+    <comp lib="0" loc="(150,280)" name="Pin">
+      <a name="label" val="2^2"/>
+    </comp>
     <comp lib="0" loc="(750,350)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="o 2^5"/>
+    </comp>
+    <comp lib="1" loc="(630,410)" name="Controlled Buffer"/>
+    <comp lib="0" loc="(160,370)" name="Pin">
+      <a name="label" val="2^7"/>
+    </comp>
+    <comp lib="0" loc="(710,380)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="o 2^6"/>
     </comp>
   </circuit>
 </project>
