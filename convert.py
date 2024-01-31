@@ -1,6 +1,9 @@
 #!/bin/python3
 import sys
-source=sys.argv[1]
+a=sys.argv
+a=a[1:]
+source="".join(a)
+print(source)
 source+=" " #bruh
 p=0
 o="v2.0 raw\n"
