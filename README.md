@@ -9,7 +9,18 @@ The machine opcodes are kinda.. strange:
 - s.. `0x0c`
 - o.. `0x30` *(bruh)*
 
-So are the microcode instruction, but meh, will add later when I need more commits
+~~So are the microcode instruction, but meh, will add later when I need more commits~~ 
+
+need commits now. **COMIITS!**
+
+|Instruction|ie|im|me|rl|re|oe|
+|-----------|--|--|--|--|--|--|
+i           |X |  |  |X |  |  |
+d           |X |X |  |X |  |  |
+s           |  |  |X |X |  |  |
+o           |  |  |  |  |X |X |
+
+the letters mean.. heres a fricking picture
 
 ![image](https://github.com/lasermtv07/deadfish-machine/assets/118477750/0c8cbed5-988d-4a37-8b2b-274522e4cfce)
 
